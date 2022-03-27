@@ -12,7 +12,7 @@ mylabel1.grid(row=0, column=3)
 mylabel2.grid(row=1, column=3)
 mylabel3.grid(row=2, column=3)
 wyjscie = ttk.Button(root, text="wyjdz", command=root.destroy).grid(column=6, row=3)
-moja_strona = ttk.Button(root, text="odwiedz moja strone", command=lambda:webbrowser.open("https://s2.kozaczek.pl/wp-content/uploads/sites/2/2021/05/30/wersow-powiekszyla-piersi.jpg")).grid(column=2, row=3)
+moja_strona = ttk.Button(root, text="odwiedz moja strone", command=lambda:webbrowser.open("https://www.youtube.com")).grid(column=2, row=3)
 
 
 mylabel1["fg"] = "gold"
